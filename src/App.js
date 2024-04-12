@@ -1,13 +1,15 @@
 import logo from './logo.svg';
+import React from 'react';
 import './App.css';
 import Menu from './menu.js';
-import Footer from './img.js';
+import Quartos from './quartos';
 
 function App() {
   return (
-    <Menu />,
-    <Footer />
-    
+    <div className="App">
+    <Menu />
+    <Quartos />
+    </div>
   );
 }
 
